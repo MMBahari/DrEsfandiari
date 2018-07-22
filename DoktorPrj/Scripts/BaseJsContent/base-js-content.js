@@ -4,6 +4,7 @@
 $(document).ready(function () {
     _setContent();
     _runBanner();
+    _ShowMaps();
 
 });
 $(window).scroll(function () {
@@ -29,6 +30,14 @@ var _runBanner = function () {
         },
         speed: 1000,
         loop: true,
+    });
+};
+var _ShowMaps = function () {
+    $('.map-ico').on('click', function () {
+        if ($('._google-map-sec').hasClass("show-map-sec"))
+            $('._google-map-sec').removeClass("show-map-sec").addClass('remove-map-sec');
+        else
+            $('._google-map-sec').addClass("show-map-sec").removeClass('remove-map-sec');
     });
 };
 

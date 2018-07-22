@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DetailArticle.aspx.cs" Inherits="DoktorPrj.DetailArticle" %>
 
 <%@ Register Src="~/MenuUserCtrl.ascx" TagPrefix="uc1" TagName="MenuUserCtrl" %>
+<%@ Register Src="~/FooterUserCtrl.ascx" TagPrefix="uc1" TagName="FooterUserCtrl" %>
+
 
 
 <!DOCTYPE html>
@@ -20,10 +22,15 @@
     <form id="form1" runat="server">
         <section class="_w100 _position-r _dir-align-r">
             <section class="_flex base-menu _position-f">
-                <uc1:MenuUserCtrl runat="server" id="MenuUserCtrl" />
+                <uc1:MenuUserCtrl runat="server" ID="MenuUserCtrl" />
+            </section>
+            <section class="_w100 _h100 _position-a _trans _google-map-sec">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.4014961890516!2d51.44416782918544!3d35.7604880870234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ1JzM3LjgiTiA1McKwMjYnNDEuMCJF!5e0!3m2!1sen!2s!4v1532298684319" frameborder="0" style="border: 0" allowfullscreen></iframe>
             </section>
             <i class="_position-f arrow-1"></i>
-            <i class="_position-f arrow-2 _trans"></i>
+            <i class="_position-f arrow-2 _trans">
+                <span class="car-rental-ico-mapmarker map-ico _position-a"></span>
+            </i>
             <section class="_flex _position-a base-art-p-content">
                 <section class="_w100 fig-art-c _position-r">
                     <figure class="_w90-pad5 _flex _position-r" style="background: url('../Img_Videos/img/serotonin_1.jpg') no-repeat center center /cover">
@@ -48,10 +55,7 @@
                     <img alt="" title="" src="Img_Videos/brain-article-2-1.jpg" />
                     <p>اولین اقدام درمانی این بیماران که میتواند به عاقبت بهتری برای آنان بینجامد جراحی و خارج کردن ضایعه است ولی سلولهای بدخیم این توانایی را دارند که داخل بافت لطیف مغز نفوذ کنند و از محدوده تومور فاصله زیادی بگیرند و این یعنی برداشتن خود ضایعه خاتمه درمان نیست؛ درمان این بیماران با اشعه درمانی و شیمی درمانی ادامه می یابد و این درمان تکمیلی کمک میکند تا عود ضایعه به تعویق بیفتد. شیمی درمانی در این بیماران خوشبختانه با دارویی خوراکی صورت میگیرد و نیازی به بستری و تزریق داخل رگ نداشته و در واقع درمان بیمار سرپایی ادامه می یابد. از سویی بسیاری از تومورهای مغزی در محدوده ای بین خوش خیمی و بدخیمی قرار میگیرند و با درمان مناسب تا مدتها بیمار میتواند بدون علامت بوده و زندگی خانوادگی و شغلی طبیعی داشته باشد. تومورهای بدخیم مغز وادی بزرگی در جراحی مغز و اعصاب است که روز به روز یافته جدیدی برای کنترل بیشتر و درمان بهتر مبتلايان به آن معرفی میگردد.</p>
                 </section>
-                <footer class="_w100 _flex footer-content _dir-align-r">
-                    <div class="_w90-pad5 top-f-c _bg-c"></div>
-                    <div class="_w90-pad5 _flex b-f-c"></div>
-                </footer>
+                <uc1:FooterUserCtrl runat="server" id="FooterUserCtrl" />
             </section>
         </section>
     </form>

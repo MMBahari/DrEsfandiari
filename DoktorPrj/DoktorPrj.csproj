@@ -200,6 +200,7 @@
     <Content Include="Article.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DetailArticle.aspx" />
+    <Content Include="FooterUserCtrl.ascx" />
     <Content Include="Global.asax" />
     <None Include="Properties\PublishProfiles\DrEsfandiari.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -273,6 +274,13 @@
     </Compile>
     <Compile Include="DetailArticle.aspx.designer.cs">
       <DependentUpon>DetailArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FooterUserCtrl.ascx.cs">
+      <DependentUpon>FooterUserCtrl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FooterUserCtrl.ascx.designer.cs">
+      <DependentUpon>FooterUserCtrl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
