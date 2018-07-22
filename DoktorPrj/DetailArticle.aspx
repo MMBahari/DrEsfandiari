@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DetailArticle.aspx.cs" Inherits="DoktorPrj.DetailArticle" %>
 
+<%@ Register Src="~/MenuUserCtrl.ascx" TagPrefix="uc1" TagName="MenuUserCtrl" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,44 +20,7 @@
     <form id="form1" runat="server">
         <section class="_w100 _position-r _dir-align-r">
             <section class="_flex base-menu _position-f">
-                <header class="_flex body-header _w100">
-                    <div class="_flex _w90-pad5 title-h-c">
-                        <img alt="" title="" src="Img_Videos/img/Logo.png" />
-                        <h2 class="_flex">دکتر رویا اسفندیاری
-                            <i>متخصص و جراح مغز و اعصاب</i>
-                        </h2>
-                    </div>
-                    <menu class="_w100">
-                        <nav class="_w100">
-                            <ul class="_w100 _flex menu-ul-c">
-                                <li class="_w100">
-                                    <a class="_w90-pad5 _flex _trans" title="" href="Default.aspx">
-                                        <i class="car-rental-ico-th-large _trans"></i>
-                                        <h2 class="_trans">صفحه اصلی</h2>
-                                    </a>
-                                </li>
-                                <li class="_w100">
-                                    <a class="_w90-pad5 _flex _trans" title="" href="Article.aspx">
-                                        <i class="car-rental-ico-th-large _trans"></i>
-                                        <h2 class="_trans">مقالات</h2>
-                                    </a>
-                                </li>
-                                <li class="_w100">
-                                    <a class="_w90-pad5 _flex _trans" title="" href="AboutUs.aspx">
-                                        <i class="car-rental-ico-th-large _trans"></i>
-                                        <h2 class="_trans">درباره ما</h2>
-                                    </a>
-                                </li>
-                                <li class="_w100">
-                                    <a class="_w90-pad5 _flex _trans" title="" href="#">
-                                        <i class="car-rental-ico-th-large _trans"></i>
-                                        <h2 class="_trans">ارتباط با ما</h2>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </menu>
-                </header>
+                <uc1:MenuUserCtrl runat="server" id="MenuUserCtrl" />
             </section>
             <i class="_position-f arrow-1"></i>
             <i class="_position-f arrow-2 _trans"></i>

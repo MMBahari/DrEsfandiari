@@ -20,392 +20,332 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.car-rental-ico-circle-compass:before {
-    content: "\e038";
+.car-rental-ico-icons8-aparat .path1:before {
+  content: "\e943";
+  color: rgb(38, 50, 56);
 }
-
-.car-rental-ico-compass:before {
-    content: "\e932";
+.car-rental-ico-icons8-aparat .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(38, 50, 56);
 }
-
-.car-rental-ico-params:before {
-    content: "\e933";
+.car-rental-ico-icons8-aparat .path3:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(38, 50, 56);
 }
-
-.car-rental-ico-barometer:before {
-    content: "\e934";
+.car-rental-ico-icons8-aparat .path4:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(38, 50, 56);
 }
-
-.car-rental-ico-barometer2:before {
-    content: "\e935";
+.car-rental-ico-icons8-aparat .path5:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(233, 30, 99);
 }
-
-.car-rental-ico-snowflake:before {
-    content: "\e93e";
+.car-rental-ico-facebook:before {
+  content: "\e948";
+  color: #3b5998;
 }
-
-.car-rental-ico-gaspump:before {
-    content: "\e93f";
+.car-rental-ico-instagram:before {
+  content: "\e949";
+  color: #e4405f;
 }
-
-.car-rental-ico-steering-wheel:before {
-    content: "\e940";
+.car-rental-ico-telegram:before {
+  content: "\e94a";
+  color: #2ca5e0;
 }
-
-.car-rental-ico-user:before {
-    content: "\e900";
-}
-
-.car-rental-ico-map-pin-alt:before {
-    content: "\e941";
-}
-
-.car-rental-ico-window:before {
-    content: "\e901";
-}
-
-.car-rental-ico-star:before {
-    content: "\f02a";
-}
-
-.car-rental-ico-safari:before {
-    content: "\eadd";
-}
-
-.car-rental-ico-connection:before {
-    content: "\e91b";
-}
-
-.car-rental-ico-th-list:before {
-    content: "\e906";
-}
-
-.car-rental-ico-th-large:before {
-    content: "\e90a";
-}
-
-.car-rental-ico-airline_seat_recline_extra:before {
-    content: "\e636";
-}
-
-.car-rental-ico-directions_car:before {
-    content: "\e531";
-}
-
-.car-rental-ico-format_color_fill:before {
-    content: "\e23a";
-}
-
-.car-rental-ico-settings_bluetooth:before {
-    content: "\e8bb";
-}
-
-.car-rental-ico-cog2:before {
-    content: "\e023";
-}
-
-.car-rental-ico-map2:before {
-    content: "\e072";
-}
-
-.car-rental-ico-snowflake-o:before {
-    content: "\f2dc";
-}
-
-.car-rental-ico-air:before {
-    content: "\e942";
-}
-
 .car-rental-ico-playlist_add:before {
-    content: "\e01e";
+  content: "\e01e";
 }
-
 .car-rental-ico-content-left:before {
-    content: "\e101";
+  content: "\e101";
 }
-
 .car-rental-ico-menu:before {
-    content: "\e120";
+  content: "\e120";
 }
-
 .car-rental-ico-mail:before {
-    content: "\e158";
+  content: "\e158";
 }
-
 .car-rental-ico-mail2:before {
-    content: "\e159";
+  content: "\e159";
 }
-
 .car-rental-ico-border_color:before {
-    content: "\e22b";
+  content: "\e22b";
 }
-
 .car-rental-ico-delete:before {
-    content: "\e287";
+  content: "\e287";
 }
-
 .car-rental-ico-keyboard_arrow_down:before {
-    content: "\e313";
+  content: "\e313";
 }
-
 .car-rental-ico-feedback:before {
-    content: "\e87f";
+  content: "\e87f";
 }
-
 .car-rental-ico-trending_up:before {
-    content: "\e8e5";
+  content: "\e8e5";
 }
-
 .car-rental-ico-pause:before {
-    content: "\e902";
+  content: "\e902";
 }
-
 .car-rental-ico-arrow-forward:before {
-    content: "\e903";
+  content: "\e903";
 }
-
 .car-rental-ico-files:before {
-    content: "\e904";
+  content: "\e904";
 }
-
 .car-rental-ico-user2:before {
-    content: "\e905";
+  content: "\e905";
 }
-
 .car-rental-ico-calendar:before {
-    content: "\e907";
+  content: "\e907";
 }
-
 .car-rental-ico-eye:before {
-    content: "\e908";
+  content: "\e908";
 }
-
 .car-rental-ico-users:before {
-    content: "\e909";
+  content: "\e909";
 }
-
 .car-rental-ico-transfer:before {
-    content: "\e90b";
+  content: "\e90b";
 }
-
 .car-rental-ico-in-alt:before {
-    content: "\e90c";
+  content: "\e90c";
 }
-
 .car-rental-ico-users2:before {
-    content: "\e90d";
+  content: "\e90d";
 }
-
 .car-rental-ico-mapmarker:before {
-    content: "\e90e";
+  content: "\e90e";
 }
-
 .car-rental-ico-chevron-down:before {
-    content: "\e90f";
+  content: "\e90f";
 }
-
 .car-rental-ico-chevron-small-down:before {
-    content: "\e910";
+  content: "\e910";
 }
-
 .car-rental-ico-chevron-thin-down:before {
-    content: "\e911";
+  content: "\e911";
 }
-
 .car-rental-ico-map:before {
-    content: "\e912";
+  content: "\e912";
 }
-
 .car-rental-ico-heart:before {
-    content: "\e913";
+  content: "\e913";
 }
-
 .car-rental-ico-left-quote:before {
-    content: "\e914";
+  content: "\e914";
 }
-
 .car-rental-ico-right-quote:before {
-    content: "\e915";
+  content: "\e915";
 }
-
 .car-rental-ico-share:before {
-    content: "\e916";
+  content: "\e916";
 }
-
 .car-rental-ico-image:before {
-    content: "\e917";
+  content: "\e917";
 }
-
 .car-rental-ico-earth:before {
-    content: "\e918";
+  content: "\e918";
 }
-
 .car-rental-ico-history:before {
-    content: "\e919";
+  content: "\e919";
 }
-
 .car-rental-ico-stats-dots:before {
-    content: "\e91a";
+  content: "\e91a";
 }
-
 .car-rental-ico-power:before {
-    content: "\e91c";
+  content: "\e91c";
 }
-
 .car-rental-ico-graph:before {
-    content: "\e91d";
+  content: "\e91d";
 }
-
 .car-rental-ico-phone-hang-up:before {
-    content: "\e91e";
+  content: "\e91e";
 }
-
 .car-rental-ico-chevron-left:before {
-    content: "\e91f";
+  content: "\e91f";
 }
-
 .car-rental-ico-chevron-right:before {
-    content: "\e920";
+  content: "\e920";
 }
-
 .car-rental-ico-chevron-small-down2:before {
-    content: "\e921";
+  content: "\e921";
 }
-
 .car-rental-ico-chevron-small-left:before {
-    content: "\e922";
+  content: "\e922";
 }
-
 .car-rental-ico-chevron-small-right:before {
-    content: "\e923";
+  content: "\e923";
 }
-
 .car-rental-ico-chevron-small-up:before {
-    content: "\e924";
+  content: "\e924";
 }
-
 .car-rental-ico-chevron-thin-down2:before {
-    content: "\e925";
+  content: "\e925";
 }
-
 .car-rental-ico-chevron-thin-left:before {
-    content: "\e926";
+  content: "\e926";
 }
-
 .car-rental-ico-chevron-thin-right:before {
-    content: "\e927";
+  content: "\e927";
 }
-
 .car-rental-ico-chevron-thin-up:before {
-    content: "\e928";
+  content: "\e928";
 }
-
 .car-rental-ico-dots-three-horizontal:before {
-    content: "\e929";
+  content: "\e929";
 }
-
 .car-rental-ico-dots-three-vertical:before {
-    content: "\e92a";
+  content: "\e92a";
 }
-
 .car-rental-ico-dots-two-horizontal:before {
-    content: "\e92b";
+  content: "\e92b";
 }
-
 .car-rental-ico-dots-two-vertical:before {
-    content: "\e92c";
+  content: "\e92c";
 }
-
 .car-rental-ico-ccw:before {
-    content: "\e92d";
+  content: "\e92d";
 }
-
 .car-rental-ico-check:before {
-    content: "\e92e";
+  content: "\e92e";
 }
-
 .car-rental-ico-cross:before {
-    content: "\e92f";
+  content: "\e92f";
 }
-
 .car-rental-ico-hyperlink:before {
-    content: "\e930";
+  content: "\e930";
 }
-
 .car-rental-ico-linkedin:before {
-    content: "\e931";
+  content: "\e931";
 }
-
 .car-rental-ico-chat:before {
-    content: "\e936";
+  content: "\e936";
 }
-
 .car-rental-ico-camera:before {
-    content: "\e937";
+  content: "\e937";
 }
-
 .car-rental-ico-paperplane:before {
-    content: "\e938";
+  content: "\e938";
 }
-
 .car-rental-ico-office:before {
-    content: "\e939";
+  content: "\e939";
 }
-
 .car-rental-ico-drink:before {
-    content: "\e93a";
+  content: "\e93a";
 }
-
 .car-rental-ico-car:before {
-    content: "\e93b";
+  content: "\e93b";
 }
-
 .car-rental-ico-document-fill:before {
-    content: "\e93c";
+  content: "\e93c";
 }
-
 .car-rental-ico-select-arrows:before {
-    content: "\e93d";
+  content: "\e93d";
 }
-
 .car-rental-ico-signal:before {
-    content: "\f012";
+  content: "\f012";
 }
-
 .car-rental-ico-cog:before {
-    content: "\f013";
+  content: "\f013";
 }
-
 .car-rental-ico-edit:before {
-    content: "\f044";
+  content: "\f044";
 }
-
 .car-rental-ico-alignment-align:before {
-    content: "\f08a";
+  content: "\f08a";
 }
-
 .car-rental-ico-home:before {
-    content: "\f08d";
+  content: "\f08d";
 }
-
 .car-rental-ico-group:before {
-    content: "\f0c0";
+  content: "\f0c0";
 }
-
 .car-rental-ico-angle-down:before {
-    content: "\f107";
+  content: "\f107";
 }
-
 .car-rental-ico-long-arrow-left:before {
-    content: "\f177";
+  content: "\f177";
 }
-
 .car-rental-ico-long-arrow-right:before {
-    content: "\f178";
+  content: "\f178";
 }
-
 .car-rental-ico-fax:before {
-    content: "\f1ac";
+  content: "\f1ac";
+}
+.car-rental-ico-circle-compass:before {
+  content: "\e038";
+}
+.car-rental-ico-compass:before {
+  content: "\e932";
+}
+.car-rental-ico-params:before {
+  content: "\e933";
+}
+.car-rental-ico-barometer:before {
+  content: "\e934";
+}
+.car-rental-ico-barometer2:before {
+  content: "\e935";
+}
+.car-rental-ico-snowflake:before {
+  content: "\e93e";
+}
+.car-rental-ico-gaspump:before {
+  content: "\e93f";
+}
+.car-rental-ico-steering-wheel:before {
+  content: "\e940";
+}
+.car-rental-ico-user:before {
+  content: "\e900";
+}
+.car-rental-ico-map-pin-alt:before {
+  content: "\e941";
+}
+.car-rental-ico-window:before {
+  content: "\e901";
+}
+.car-rental-ico-star:before {
+  content: "\f02a";
+}
+.car-rental-ico-safari:before {
+  content: "\eadd";
+}
+.car-rental-ico-connection:before {
+  content: "\e91b";
+}
+.car-rental-ico-th-list:before {
+  content: "\e906";
+}
+.car-rental-ico-th-large:before {
+  content: "\e90a";
+}
+.car-rental-ico-airline_seat_recline_extra:before {
+  content: "\e636";
+}
+.car-rental-ico-directions_car:before {
+  content: "\e531";
+}
+.car-rental-ico-format_color_fill:before {
+  content: "\e23a";
+}
+.car-rental-ico-settings_bluetooth:before {
+  content: "\e8bb";
+}
+.car-rental-ico-cog2:before {
+  content: "\e023";
+}
+.car-rental-ico-map2:before {
+  content: "\e072";
+}
+.car-rental-ico-snowflake-o:before {
+  content: "\f2dc";
+}
+.car-rental-ico-air:before {
+  content: "\e942";
 }
 
 

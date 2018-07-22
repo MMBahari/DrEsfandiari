@@ -213,6 +213,7 @@
     <Content Include="Img_Videos\img\serotonin_1.jpg" />
     <Content Include="Img_Videos\img\Spine-logo.Sefid_.png" />
     <Content Include="Img_Videos\Neurologist.mp4" />
+    <Content Include="MenuUserCtrl.ascx" />
     <Content Include="Scripts\BaseJsContent\base-js-content.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -275,6 +276,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUserCtrl.ascx.cs">
+      <DependentUpon>MenuUserCtrl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuUserCtrl.ascx.designer.cs">
+      <DependentUpon>MenuUserCtrl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
