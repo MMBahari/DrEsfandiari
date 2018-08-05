@@ -5,6 +5,7 @@ $(document).ready(function () {
     _setContent();
     _runBanner();
     _ShowMaps();
+    _setHContactMap();
 
 });
 $(window).scroll(function () {
@@ -40,4 +41,11 @@ var _ShowMaps = function () {
             $('._google-map-sec').addClass("show-map-sec").removeClass('remove-map-sec');
     });
 };
+var _setHContactMap = function () {
+    var winH = window.innerHeight;
+    $(".map-contact").css({
+        height: winH - 69,
+
+    }); $(".arrow-2").addClass("change-bg");
+}
 

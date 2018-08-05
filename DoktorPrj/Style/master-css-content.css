@@ -275,6 +275,9 @@
 .car-rental-ico-fax:before {
   content: "\f1ac";
 }
+.car-rental-ico-video:before {
+  content: "\e011";
+}
 .car-rental-ico-circle-compass:before {
   content: "\e038";
 }

@@ -198,6 +198,7 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="Article.aspx" />
+    <Content Include="Contactus.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DetailArticle.aspx" />
     <Content Include="FooterUserCtrl.ascx" />
@@ -229,6 +230,7 @@
     <Content Include="Style\master-css-content.css" />
     <Content Include="Style\swiper\swiper.css" />
     <Content Include="Style\swiper\swiper.min.css" />
+    <Content Include="Videos.aspx" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
@@ -260,6 +262,13 @@
     </Compile>
     <Compile Include="Article.aspx.designer.cs">
       <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -294,6 +303,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Videos.aspx.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Videos.aspx.designer.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
