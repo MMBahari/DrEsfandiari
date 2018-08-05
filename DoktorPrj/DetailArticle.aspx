@@ -27,7 +27,9 @@
             <section class="_w100 _h100 _position-a _trans _google-map-sec">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.4014961890516!2d51.44416782918544!3d35.7604880870234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ1JzM3LjgiTiA1McKwMjYnNDEuMCJF!5e0!3m2!1sen!2s!4v1532298684319" frameborder="0" style="border: 0" allowfullscreen></iframe>
             </section>
-            <i class="_position-f arrow-1"></i>
+            <i class="_position-f arrow-1">
+                <span class="car-rental-ico-menu spn-menu-arrow"></span>
+            </i>
             <i class="_position-f arrow-2 _trans">
                 <span class="car-rental-ico-mapmarker map-ico _position-a"></span>
             </i>
@@ -55,7 +57,7 @@
                     <img alt="" title="" src="Img_Videos/brain-article-2-1.jpg" />
                     <p>اولین اقدام درمانی این بیماران که میتواند به عاقبت بهتری برای آنان بینجامد جراحی و خارج کردن ضایعه است ولی سلولهای بدخیم این توانایی را دارند که داخل بافت لطیف مغز نفوذ کنند و از محدوده تومور فاصله زیادی بگیرند و این یعنی برداشتن خود ضایعه خاتمه درمان نیست؛ درمان این بیماران با اشعه درمانی و شیمی درمانی ادامه می یابد و این درمان تکمیلی کمک میکند تا عود ضایعه به تعویق بیفتد. شیمی درمانی در این بیماران خوشبختانه با دارویی خوراکی صورت میگیرد و نیازی به بستری و تزریق داخل رگ نداشته و در واقع درمان بیمار سرپایی ادامه می یابد. از سویی بسیاری از تومورهای مغزی در محدوده ای بین خوش خیمی و بدخیمی قرار میگیرند و با درمان مناسب تا مدتها بیمار میتواند بدون علامت بوده و زندگی خانوادگی و شغلی طبیعی داشته باشد. تومورهای بدخیم مغز وادی بزرگی در جراحی مغز و اعصاب است که روز به روز یافته جدیدی برای کنترل بیشتر و درمان بهتر مبتلايان به آن معرفی میگردد.</p>
                 </section>
-                <uc1:FooterUserCtrl runat="server" id="FooterUserCtrl" />
+                <uc1:FooterUserCtrl runat="server" ID="FooterUserCtrl" />
             </section>
         </section>
     </form>

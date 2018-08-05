@@ -21,7 +21,9 @@
             <section class="_flex base-menu _position-f">
                 <uc1:MenuUserCtrl runat="server" ID="MenuUserCtrl" />
             </section>
-            <i class="_position-f arrow-1"></i>
+            <i class="_position-f arrow-1">
+                <span class="car-rental-ico-menu spn-menu-arrow"></span>
+            </i>
             <i class="_position-f arrow-2 _trans"></i>
             <section class="_flex _position-a contact-base-c">
                 <section class="_flex _w90-pad5 title-body">

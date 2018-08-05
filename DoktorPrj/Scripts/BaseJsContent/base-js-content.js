@@ -6,6 +6,7 @@ $(document).ready(function () {
     _runBanner();
     _ShowMaps();
     _setHContactMap();
+    _showMenuContent();
 
 });
 $(window).scroll(function () {
@@ -47,5 +48,30 @@ var _setHContactMap = function () {
         height: winH - 69,
 
     }); $(".arrow-2").addClass("change-bg");
-}
+};
+var _showMenuContent = function () {
+    $('.spn-menu-arrow').on('click', function () {
+        if (!$('.base-menu').hasClass("_showMenu")) {
+            $(".base-menu").css(
+                {
+                    right: 0,
+                    width: "225px",
+                }).addClass("_showMenu");
+            $(".arrow-1").css(
+                {
+                    right: "195px",
+                });
+        }
+        else {
+            $(".base-menu").css(
+                {
+                    right: "-100%",
+                }).removeClass("_showMenu");
+            $(".arrow-1").css(
+                {
+                    right: 0,
+                });
+        }
+    });
+};
 

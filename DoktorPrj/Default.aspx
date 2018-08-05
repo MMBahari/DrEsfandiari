@@ -31,7 +31,9 @@
             <video autoplay loop muted class="_position-f _trans" id="dfVideos">
                 <source src="/Img_Videos/Neurologist.mp4" type="video/mp4" />
             </video>
-            <i class="_position-f arrow-1"></i>
+            <i class="_position-f arrow-1">
+                <span class="car-rental-ico-menu spn-menu-arrow"></span>
+            </i>
             <i class="_position-f arrow-2 _trans">
                 <span class="car-rental-ico-mapmarker map-ico _position-a"></span>
             </i>
