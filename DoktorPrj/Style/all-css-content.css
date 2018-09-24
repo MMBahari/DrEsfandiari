@@ -137,6 +137,9 @@
     -moz-transition: all 0.5s ease 0s;
 }
 
+.base-h-content {
+    margin-top: 700px;
+}
 /*--------------------------------------------------*/
 
 #dfVideos {

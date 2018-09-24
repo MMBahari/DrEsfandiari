@@ -11,8 +11,16 @@
     <link href="/Style/master-css-content.css" rel="stylesheet" />
     <link href="/Style/all-css-content.css" rel="stylesheet" />
     <link href="/Style/swiper/swiper.min.css" rel="stylesheet" />
+    <link href="/Style/persian-datepicker.css" rel="stylesheet" />
     <script src="/Scripts/jquery-3.3.1.js"></script>
     <script src="/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="/Scripts/BaseJsContent/persian-datepicker.js"></script>
+    <script src="/Scripts/angular.js"></script>
+    <script src="/Scripts/angular-touch.min.js"></script>
+    <script src="/Scripts/angular-animate.min.js"></script>
+    <script src="/Scripts/angular-route.min.js"></script>
+    <script src="/Scripts/angular-aria.min.js"></script>
+    <script src="/Scripts/angular-material.js"></script>
     <script src="/Scripts/swiper/swiper.min.js"></script>
     <script src="/Scripts/BaseJsContent/base-js-content.js"></script>
 
