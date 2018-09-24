@@ -121,7 +121,7 @@
 /* end menu content */
 /* base content page -------------------------------*/
 
-.base-h-content, .base-art-p-content, .base-aboutus, .contact-base-c, .base-videos {
+.base-h-content, .base-art-p-content, .base-aboutus, .contact-base-c, .base-videos, .base-ro-content {
     width: 83%;
     padding-right: 17%;
     flex-flow: row wrap;
@@ -137,6 +137,9 @@
     -moz-transition: all 0.5s ease 0s;
 }
 
+.base-h-content {
+    margin-top: 700px;
+}
 /*--------------------------------------------------*/
 
 #dfVideos {
@@ -1113,3 +1116,290 @@
         top: 0;
     }
 }
+/* reservation online content */
+.base-body-ro-content {
+    min-height: 800px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.body-info-ro {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+    .body-info-ro > p {
+        font-size: 1em;
+        color: #505050;
+        margin-bottom: 8px;
+    }
+
+.base-dp-o-r {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+._bg-g {
+    background: #dff0d8;
+}
+
+._bg-r {
+    background: #f2dede;
+}
+
+._color-r {
+    color: #a94442;
+}
+
+._color-g {
+    color: #3c763d;
+}
+/*datepicker css content */
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    display: none;
+}
+
+.ui-datepicker {
+    width: 70em !important;
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+    width: 85% !important;
+}
+
+.ui-datepicker td .ui-state-default {
+    color: #404040 !important;
+}
+
+.ui-widget-content * {
+    font-size: 1em !important;
+}
+/*end datepicker css content */
+
+.base-body-o-r {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.title-o-r {
+    flex-flow: row wrap;
+    margin: 50px 0 10px;
+}
+
+    .title-o-r > h1, .title-o-r > h2, .title-o-r > h4, .title-o-r > p {
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-o-r > h1 {
+        font-size: 2.5em;
+        margin-bottom: 35px;
+    }
+
+    .title-o-r > h4 {
+        font-size: 1.5em;
+        color: #606060;
+        margin-top: 15px;
+        color: #a94442;
+    }
+
+    .title-o-r > h2 {
+        font-size: 1.2em;
+        color: #606060;
+    }
+
+    .title-o-r > p {
+        align-items: flex-start;
+        font-size: 1.5em;
+        color: #606060;
+        justify-content: right;
+    }
+
+    .title-o-r > input {
+        margin-top: 20px;
+    }
+
+.base-dp-o-r {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-time-content {
+    margin-bottom: 50px;
+}
+
+    .show-time-content > h2 {
+        font-size: 1.5em;
+        color: #606060;
+        color: #a94442;
+        padding: 15px;
+    }
+
+    .show-time-content > ul {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+        .show-time-content > ul li {
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 2px;
+            box-shadow: 0 0 1.5px 0 rgba(0,0,0,0.4);
+            min-width: 14%;
+            min-height: 65px;
+            flex-flow: column nowrap;
+        }
+
+            .show-time-content > ul li.reserved > i {
+                font-family: "irYekan";
+                font-size: 1.4em;
+                line-height: 20px;
+            }
+
+            .show-time-content > ul li.open > i {
+                font-family: "irYekan";
+                font-size: 2em;
+                line-height: 20px;
+            }
+/* Track Reservation */
+.base-t-r-content {
+    min-height: 450px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.track-item {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 50px 30% 25px;
+}
+
+.last-track-item {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0 25% 20px;
+}
+
+.s-i-l-t {
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+    .s-i-l-t.t-i {
+        justify-content: space-between;
+        background: #F8F8F8;
+        border-top: 1px solid #DDD;
+        border-left: 1px solid #DDD;
+        border-right: 1px solid #DDD;
+    }
+
+.r-c, .l-c {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+    .r-c > div, .l-c > div {
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px 20px;
+    }
+
+    .l-c > div {
+        justify-content: flex-end;
+    }
+
+        .r-c > div > span, .l-c > div > span {
+            font-size: 1.2em;
+            color: #606060;
+            margin-left: 5px;
+            font-family: "BNazanin", Tahoma, sans-serif;
+            min-width: 120px;
+        }
+
+        .l-c > div > span {
+            min-width: 100px;
+        }
+
+.all-track-item {
+    flex-flow: row wrap;
+}
+
+    .all-track-item > h1 {
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.3em;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+/* End Track Reservation */
+.tbl-h-s {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 25px;
+    font-family: "BNazanin", Tahoma, sans-serif;
+}
+
+    .tbl-h-s th,
+    .tbl-h-s td {
+        padding: 5px;
+        text-align: center;
+        vertical-align: central;
+        border-left: 1px solid #6a8fde;
+    }
+
+    .tbl-h-s .td-title, .tbl-h-s .td-ticket-p-content {
+        padding: 0 !important;
+        border-bottom: none !important;
+    }
+
+    .tbl-h-s thead {
+        background: #3b5998;
+        color: #fff;
+    }
+
+    .tbl-h-s tbody tr:nth-child(even) {
+        background: #f0f0f2;
+    }
+
+    .tbl-h-s tbody tr:nth-child(odd) {
+        background: #FFF;
+    }
+
+    .tbl-h-s td {
+        border-bottom: 1px solid #cecfd5;
+        border-left: 1px solid #cecfd5;
+    }
+
+        .tbl-h-s td:first-child {
+            border-right: 1px solid #cecfd5;
+        }
+
+    .tbl-h-s > caption > .b-caption {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+/* end reservation online content */
