@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DrEsfandiariDAO.DataHandler;
+using DrEsfandiariDTO.Domain;
 
 namespace DoktorPrj
 {
@@ -12,6 +14,10 @@ namespace DoktorPrj
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        private void FillPage()
+        {
+            
         }
     }
 }
