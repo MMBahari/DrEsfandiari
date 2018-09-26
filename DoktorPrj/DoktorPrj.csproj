@@ -198,6 +198,7 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="Article.aspx" />
+    <Content Include="CallBackReservation.aspx" />
     <Content Include="Contactus.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DetailArticle.aspx" />
@@ -1042,6 +1043,13 @@
     </Compile>
     <Compile Include="Article.aspx.designer.cs">
       <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CallBackReservation.aspx.cs">
+      <DependentUpon>CallBackReservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CallBackReservation.aspx.designer.cs">
+      <DependentUpon>CallBackReservation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contactus.aspx.cs">
       <DependentUpon>Contactus.aspx</DependentUpon>

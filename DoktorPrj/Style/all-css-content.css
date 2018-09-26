@@ -1311,7 +1311,13 @@
         border-top: 1px solid #DDD;
         border-left: 1px solid #DDD;
         border-right: 1px solid #DDD;
+        padding: 0 0 20px;
     }
+
+        .s-i-l-t.t-i > span {
+            font-size: 1.2em;
+            padding: 12px 0;
+        }
 
 .r-c, .l-c {
     flex-flow: column nowrap;
@@ -1331,16 +1337,19 @@
     }
 
         .r-c > div > span, .l-c > div > span {
-            font-size: 1.2em;
+            font-size: 1em;
             color: #606060;
             margin-left: 5px;
-            font-family: "BNazanin", Tahoma, sans-serif;
+            font-family: "irSans","irYekan", Tahoma, sans-serif;
             min-width: 120px;
         }
 
         .l-c > div > span {
             min-width: 100px;
         }
+
+.s-i-l-t.c-i {
+}
 
 .all-track-item {
     flex-flow: row wrap;
@@ -1349,16 +1358,30 @@
     .all-track-item > h1 {
         align-items: center;
         justify-content: flex-start;
-        font-size: 1.3em;
+        font-size: 1em;
         margin-top: 8px;
         margin-bottom: 8px;
+    }
+
+.bttn-content {
+    font-size: 1.1em;
+    padding: 12px 15px;
+    background: #3e3e7e;
+    border-radius: 2px 2px 2px 2px;
+    font-family: "irSans","irYekan", Tahoma, sans-serif;
+    border: 1px solid #5b3872;
+    color: #F1F1F1;
+}
+
+    .bttn-content:hover {
+        background: #5b3872;
     }
 /* End Track Reservation */
 .tbl-h-s {
     border-collapse: separate;
     border-spacing: 0;
     margin-bottom: 25px;
-    font-family: "BNazanin", Tahoma, sans-serif;
+    font-family: "irSans","irYekan", Tahoma, sans-serif;
 }
 
     .tbl-h-s th,
@@ -1375,7 +1398,7 @@
     }
 
     .tbl-h-s thead {
-        background: #3b5998;
+        background: #5b3872;
         color: #fff;
     }
 
