@@ -140,6 +140,10 @@
 .base-h-content {
     margin-top: 700px;
 }
+
+.contact-base-c .body-cc {
+    min-height: 700px;
+}
 /*--------------------------------------------------*/
 
 #dfVideos {

@@ -37,7 +37,7 @@
                 <section class="_flex _w90-pad5 title-body">
                     <h1>ارتباط با دکتر فرشته اسفندیاری</h1>
                 </section>
-                <section class="_flex _w100 body-contact">
+                <section class="_flex _w100 body-cc">
                     <section class="_flex _w100 map-contact _position-r">
                         <div class="_position-a _flex info-map-c">
                             <h3 class="_flex _w100"><i class="car-rental-ico-feedback _color-w"></i><span>اطلاعات تماس</span></h3>
